@@ -14,26 +14,25 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="w-90 grid grid-cols-3 gap-10 text-center py-8">
+        <div className="w-3Learning new skills and thriving in a collaborative environment is0 grid grid-cols-3 gap-10 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:Scale-110 duration-500">
-            <p className="my-4">Smiling School</p>
-            <img
-              className="w-30 h-60 mx-auto"
-              src={smiling_cover}
-              alt="smiling-cover"
-            />
-            <p className="my-4">
+            <a 
+              href="https://github.com/RockoGilbert/holberton-smilingschool-javascript"
+              class="animate-pulse text-red-400 mb-5">Smiling School
+            </a>
+            <img className="w-30 h-60 mx-auto" src={smiling_cover} alt="smiling-cover" />
+            <p className="my-4 pl-14">
               Dynamic web application that was built using JavaScript, jQuery,
               Bootstrap, and UI/UX designs.
             </p>
           </div>
+
           <div className="shadow-md shadow-[#040c16] hover:Scale-110 duration-500">
-            <p className="my-4">Kahuna</p>
-            <img
-              className="w-30 h-60 mx-auto"
-              src={Kahuna}
-              alt="Kahuna"
-            />
+            <a
+              href="https://github.com/RockoGilbert/kahuna"
+              class="animate-pulse text-red-400">Kahuna
+            </a>
+            <img className="w-30 h-60 mx-auto" src={Kahuna} alt="Kahuna" />
             <p className="my-4">
               Custom front-end from a prompt “waves”. Created using HTML, CSS,
               Vanilla JS. and Tailwind. Fully responsive with search features.
@@ -41,12 +40,11 @@ const Projects = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:Scale-110 duration-500">
-            <p className="my-4">AirBnB Clone</p>
-            <img
-              className="w-30 h-60 mx-auto"
-              src={AirBnB}
-              alt="AirBnb"
-            />
+            <a
+              href="https://github.com/RockoGilbert/AirBnB_clone_v4"
+              class="animate-pulse text-red-400">AirBnb
+            </a>
+            <img className="w-30 h-60 mx-auto" src={AirBnB} alt="AirBnb" />
             <p className="my-4">
               Airbnb-like web-service built with Python, MySQL, Flask, NGINX,
               and JavaScript

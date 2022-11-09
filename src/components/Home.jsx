@@ -15,13 +15,14 @@ const Home = () => (
         Full Stack Developer
       </h2>
 
-    <div className flex >
-        <img src={PORT} alt="Rocko" height="300" width="300"/>
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-        While my focus is on building responsive full-stack web applications, I'm equally as excited to continue learning, growing professionally, and personally as a developer.  
-      </p>
+      <div className flex >
+        <img src={PORT} alt="Rocko" height="300" width="300" />
+        <p className='text-[#dbdee8] py-4 max-w-[705px]'>
+           I am very familiar with process of applied learning in a collaborative environment. Having a unique blend of realworld, business, and military experience has provided me a solid foundation of transferable skills to expand upon. As I am open to frontend or backend roles, my main focus is to find a team who values personal growth as well as the bottom dollar.
+        </p>
+      </div>
     </div>
-    </div>
-  </div>);
+  </div>
+  );
 
 export default Home;
