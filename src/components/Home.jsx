@@ -18,11 +18,10 @@ const Home = () => (
       <div className flex >
         <img src={PORT} alt="Rocko" height="300" width="300" />
         <p className='text-[#dbdee8] py-4 max-w-[705px]'>
-           I am very familiar with process of applied learning in a collaborative environment. Having a unique blend of realworld, business, and military experience has provided me a solid foundation of transferable skills to expand upon. As I am open to frontend or backend roles, my main focus is to find a team who values personal growth as well as the bottom dollar.
-        </p>
+          From the Air Force to a managing logistics, I have been provided a solid foundation of transferable skills to expand upon. As I am open to pursue a frontend or backend roles, my aim to contribute to a team that is passionate about the growth of it's business and people.</p>
       </div>
     </div>
   </div>
-  );
+);
 
 export default Home;

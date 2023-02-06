@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-end px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-end px-4 bg-[#0a192f] text-gray-300">
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-    
+
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
@@ -79,7 +79,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a className="flex justify-between items-center w-full text-gray-300"
-             href="https://linkedin.com/in/rocko2122"
+              href="https://linkedin.com/in/rocko2122"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          
+
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
@@ -106,13 +106,13 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/1xc9qIr2pCuQ62dgcxNLdTZCz6Fn5FEyR5U6r5JrbGrE/edit?usp=sharing"
+              href="https://www.canva.com/design/DAFZMP--1jU/VMGy91Gl8--VBtLJmEHeIg/view?utm_content=DAFZMP--1jU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
-    </div>
+      </div>
     </div>
   );
 };
